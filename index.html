@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="omar.css" />
+  </head>
+  <body>
+    <form action="">
+      <h1>
+
+        <span class="falsePoints">0</span>
+        <div>Welcome to math game</div>
+        <span class="correctPoints">0</span>
+      </h1>
+      <span>
+        <label for="name">enter your name</label>
+        <input type="text" class="playerName" id="name" />
+        <span class="theTime">time :<span>0</span></span>
+      </span>
+      <span>
+        <label for="operation">choose the operation</label>
+        <select name="" id="operation" class="playerOperation">
+          <option value="*">*</option>
+          <option value="+">+</option>
+          <option value="-">-</option>
+        </select>
+        <label for="time" class="timee">choose the time</label>
+        <select name="" id="time" class="playertime">
+          <option value="30">30</option>
+          <option value="60">60</option>
+        </select>
+        
+      </span>
+      <span class="sas"> <button class="start">Start</button> </span>
+      <div class="divv">
+        <h2 class="bam"></h2>
+      </div>
+      <div class="allAnswers hidden">
+        <span id="one"></span>
+        <span id="two"></span>
+        <span id="three"></span>
+      </div>
+    </form>
+    <script src="omar.js"></script>
+  </body>
+</html>
