@@ -10,7 +10,7 @@ let falseSound = new Audio(
   "https://onjiroo.github.io/simple-game/error-8-206492.mp3"
 ); // Fixed the sound variable name
 let startSound = new Audio(
-  "https://onjiroo.github.io/simple-game/background-music-for-video-blog-cyborg-in-me-30-second-188534.mp3"
+  "https://onjiroo.github.io/simple-game/gitbackground-music-for-video-blog-cyborg-in-me-30-second-188534.mp3"
 );
 let theEndSound = new Audio(
   "https://onjiroo.github.io/simple-game/sinus-bomb-137068.mp3"

@@ -7,6 +7,28 @@
   text-transform: capitalize;
 }
 
+/* تخصيص كامل لمتصفح كروم وسفاري */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+/* تخصيص خلفية شريط التمرير */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* تخصيص مقبض شريط التمرير */
+::-webkit-scrollbar-thumb {
+  background: #0084ff;
+  border-radius: 10px;
+}
+
+/* تغيير اللون عند التمرير */
+::-webkit-scrollbar-thumb:hover {
+  background: #004a8f;
+}
+
 body {
   background-color: white !important;
   font-family: cursive;
@@ -49,6 +71,7 @@ form {
   margin: 0px auto;
   gap: 30px;
   margin-top: 50px;
+  margin-bottom: 50px;
   padding-top: 20pxf;
   label {
     margin-right: 20px;
@@ -165,7 +188,6 @@ h2 {
   background-color: black;
   border-bottom: 5px solid black;
 }
-
 
 .falsePoints {
   font-size: 40px;
