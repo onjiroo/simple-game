@@ -4,17 +4,19 @@ document.body.style.backgroundColor = "#0075ff";
 
 let formm = document.querySelector("form");
 let correctSound = new Audio(
-  "https://onjiroo.github.io/game/correct-choice-43861.mp3"
+  "https://onjiroo.github.io/simple-game/correct-choice-43861.mp3"
 ); // Corrected file assignment
-let falseSound = new Audio("https://onjiroo.github.io/game/error-8-206492.mp3"); // Fixed the sound variable name
+let falseSound = new Audio(
+  "https://onjiroo.github.io/simple-game/error-8-206492.mp3"
+); // Fixed the sound variable name
 let startSound = new Audio(
-  "/background-music-for-video-blog-cyborg-in-me-30-second-188534.mp3"
+  "https://onjiroo.github.io/simple-game/background-music-for-video-blog-cyborg-in-me-30-second-188534.mp3"
 );
 let theEndSound = new Audio(
-  "https://onjiroo.github.io/game/sinus-bomb-137068.mp3"
+  "https://onjiroo.github.io/simple-game/sinus-bomb-137068.mp3"
 );
 let theBigSound = new Audio(
-  "https://onjiroo.github.io/game/clock-ticking-60-second-countdown-118231.mp3"
+  "https://onjiroo.github.io/simple-game/clock-ticking-60-second-countdown-118231.mp3"
 );
 startSound.volume = 0.5;
 
@@ -22,8 +24,6 @@ let start = document.querySelector(".start");
 let timerStarted = false;
 let correctPoints = 0;
 let incorrectPoints = 0;
-
-
 
 start.onclick = function startGame(event) {
   let theCTime = document.querySelector(".playertime").value;
